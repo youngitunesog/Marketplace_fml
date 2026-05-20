@@ -19,7 +19,7 @@ console.log(data.data);
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-[#f7f3ff]">
-      {data.id}
+      
       {/* Navbar */}
       <header className="sticky top-0 z-50 bg-white shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between gap-4">
@@ -126,7 +126,7 @@ export default function HomePage() {
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {data.data.map((product) => (
+          {data.data.map((product : any) => (
             <div
               key={product.id}
               className="bg-white rounded-3xl overflow-hidden shadow hover:shadow-2xl transition group"
