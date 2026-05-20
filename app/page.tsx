@@ -1,6 +1,6 @@
 // app/page.tsx
 import Image from "next/image";
-import {useEffect, useState} from "next/react";
+//import {useEffect, useState} from "next/react";
 
 import {
   ShoppingCart,
