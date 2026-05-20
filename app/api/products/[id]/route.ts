@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { products } from "@/lib/products";
 
 // DELETE product
+/*
 export async function DELETE(
   req: Request,
   { params }: { params: { id: string } }
@@ -23,4 +24,4 @@ export async function DELETE(
     success: true,
     message: "Product deleted successfully",
   });
-}
+}*/

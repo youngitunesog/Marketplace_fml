@@ -27,7 +27,7 @@ export default function HomePage() {
             <Menu className="md:hidden text-purple-700" />
 
             <h1 className="text-2xl font-black text-purple-700">
-              PURPLEWEAR
+              MARKETPLACE
             </h1>
           </div>
 
@@ -200,7 +200,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-4 gap-10">
           <div>
             <h4 className="text-2xl font-black text-white">
-              PURPLEWEAR
+              MARKETPLACE
             </h4>
 
             <p className="mt-4 text-sm leading-7">
@@ -249,7 +249,7 @@ export default function HomePage() {
         </div>
 
         <div className="border-t border-purple-900 text-center py-5 text-sm">
-          © 2026 PurpleWear. All rights reserved.
+          © 2026 marketplace. All rights reserved.
         </div>
       </footer>
     </main>
